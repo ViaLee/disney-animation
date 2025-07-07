@@ -8,7 +8,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
   },
-
+  mode: "development", // 开发模式
   devServer: {
     // webpack-dev-server插件选项配置
     open: true, // 打包以后是否自动启动
