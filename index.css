@@ -1,13 +1,34 @@
+#canvas {
+  display: none;
+}
 .parent {
   background-color: rgb(27, 57, 162);
-  margin: 0 auto;
+  display: flex;
   width: 100vw;
   height: 100vh;
   border: 1px solid black;
 }
 
-.castle {
+.castle_light {
   border: 1px solid red;
+  background-repeat: no-repeat;
+  width: 597px;
+  height: 527px;
+  backdrop-filter: blur(5px);
+  /* filter: drop-shadow(0 0 30px #ffffff) drop-shadow(0 0 40px #ffffff)
+    drop-shadow(0 0 50px #ffffff) blur(5px); */
+  animation: 0.541s linear 0s castle-lightoff forwards;
+  animation-play-state: paused;
+}
+
+@keyframes castle-lightoff {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
 }
 
 .img {
