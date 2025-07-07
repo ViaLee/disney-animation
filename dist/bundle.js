@@ -16,7 +16,7 @@
   \******************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _src_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/index.js */ \"./src/index.js\");\n\nconst main = () => {\n  // 等待 DOMContentLoaded 事件，确保 DOM 元素已加载\n  document.addEventListener(\"DOMContentLoaded\", () => {\n    (0,_src_index_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])?.();\n  });\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (main);\n\n//# sourceURL=webpack://disney-animation/./index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _src_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/index.js */ \"./src/index.js\");\n\nconst main = () => {\n  // 等待 DOMContentLoaded 事件，确保 DOM 元素已加载\n\n  document.body.innerHTML = \"<h1>Hello from Webpack!</h1>\";\n  console.log(\"Script loaded\");\n  document.addEventListener(\"DOMContentLoaded\", () => {\n    (0,_src_index_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])?.();\n  });\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (main);\n\n//# sourceURL=webpack://disney-animation/./index.js?");
 
 /***/ }),
 

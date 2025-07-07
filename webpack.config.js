@@ -4,9 +4,9 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
   entry: "./index.js",
   output: {
-    // publickPath: "/", // 静态资源的公共路径
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
+    publicPath: "/",
   },
   mode: "development", // 开发模式
   devServer: {
