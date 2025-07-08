@@ -4,6 +4,8 @@
 .parent {
   background-color: rgb(27, 57, 162);
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100vw;
   height: 100vh;
   border: 1px solid black;
